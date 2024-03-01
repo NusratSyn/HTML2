@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    max-width: 1350px;
+    height: auto;
+}
+.header{
+    padding: 20px 0;
+}
+.dspflex{
+    display: flex! important;
+    align-items: center! important;
+    justify-content: space-around! important;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+.ulflex{
+    display: flex;
+    gap: 20px;
+
+}
+.header nav ul li{
+    list-style-type: none;
+    
+}
+.header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.btn button{
+    background-color: #b68c5a;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px;
+}
+h1{
+    display: flex;
+    justify-content: space-around;
+    line-height: 3rem;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    padding: 50px;
+}
+p{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;   
+    color: white;
+    font-weight: bold;
+}
+.input
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    height: 50px;
+}
+.btn2{
+    background-color: #b68c5a;
+    color: white;
+    border: none;
+    width: 87px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.bgim{
+    background-image:url(https://efoli-support7.myshopify.com/cdn/shop/files/banner.png?v=1709301087&width=990);
+    background-repeat: no-repeat;
+    background-position-x: 134px;
+    height: 503px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    padding: 20px;
+}
+.para2{
+    color: #878585;
+    font-size: 12px;
+}
+.p3{
+    color: black;
+    font-size: 6px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    padding: 20px 100px;
+    grid-template-rows: 200px 200px;
+    grid-gap: 23px;
+    text-align: center;
+    justify-content: center;
+}
+.client{
+    padding: 20px;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-image: url(https://efoli-support7.myshopify.com/cdn/shop/files/slider-2.jpg?v=1709305103&width=990);
+    background-repeat: no-repeat;
+    background-position-x: 134px;
+    height: 272px;
+}
+.N1,
+.p4{
+    color: white;
+}
+.p4{
+    font-size: 12px;
+}
+.faq{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.f1,
+.f2,
+.f3{
+    background: #f2efef;
+    width: 268px;
+}
+.faq2{
+    line-height: 2rem;
+    padding: 20px 20px;
+}
